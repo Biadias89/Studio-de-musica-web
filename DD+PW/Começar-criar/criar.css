@@ -1,0 +1,7 @@
+body{
+    background-image: url(../studio1.jpeg) center, no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; 
+}

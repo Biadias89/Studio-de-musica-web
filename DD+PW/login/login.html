@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+    <title>Login</title>
+</head>
+
+<body>
+
+    <!-- ANIMAÇÃO DE NOTAS MUSICAIS -->
+
+    <div class="background-music">
+
+        <span class="note">&#9835;</span>
+        <span class="note">&#9833;</span>
+        <span class="note">&#9839;</span>
+        <span class="note">&#9834;</span>
+        <span class="note">&#9835;</span>
+        <span class="note">&#9833;</span>
+        <span class="note">&#9839;</span>
+        <span class="note">&#9834;</span>
+
+    </div>
+
+    <!-- LOGIN -->
+
+    <div class="container">
+
+        <p><img class="logo" src="../Img/logo-som.png"></p>
+
+        <h1> OLÁ! </h1>
+
+        <label class="input-usuario"> E-mail: </label>
+        <p><input id="email" type="email" placeholder="seuemail@exemplo.com.br" required></p>
+
+        <label class="input-senha"> Senha: </label>
+        <p><input id="senha" type="password" placeholder="Digite sua senha" maxlength="8"></p>
+
+        <button class="btn-entrar" onclick="faz_login()"> Entrar </a></button>
+        <div class="links"> 
+            <p><a href="../esqueceu-senha/esqueceu_senha_email.html">Esqueceu a senha?</a></p>
+            <p><a href="../Cadastro/cadastro.html">Não tem cadastro?</a></p>
+            <p><a href="../Home/home_sc.html">Entrar sem cadastro</a></p>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <script src="cadastro.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+           <!-- ANIMAÇÃO DE NOTAS MUSICAIS -->
+
+    <div class="background-music">
+        
+        <span class="note">&#9835;</span>
+        <span class="note">&#9833;</span>
+        <span class="note">&#9839;</span>
+        <span class="note">&#9834;</span>
+        <span class="note">&#9835;</span>
+        <span class="note">&#9833;</span>
+        <span class="note">&#9839;</span>
+        <span class="note">&#9834;</span>
+    
+    </div>
+
+    <div class="container">
+
+        <p><img class="logo" src="../Img/logo-som.png"></p>
+
+        <h2> CADASTRO </h2>
+
+        <label class="input-usuario"> Usuário: </label>
+        <p><input id="text" type="text" placeholder="Digite seu usuário" required></p>
+        
+        <label class="input-email"> E-mail: </label>
+        <p><input id="email" type="text" placeholder="seuemail@exemplo.com.br" required></p>
+
+        <label class="input-senha"> Crie uma senha: </label>
+        <p><input id="senha" type="password" placeholder="Mínimo 8 caracteres" maxlength="8" required></p>
+
+        <label class="input-con-senha"> Confirme sua senha: </label>
+        <p><input id="con-senha" type="password" placeholder="Confirme sua senha" maxlength="8"></p>
+
+        <label class="input-dt-nasc"> Data de nascimento: </label> 
+        <p><input id="dt-nasc" type="date" required></p>
+
+        <button class="btn-cadastrar" onclick="cadastrar()">Cadastrar</button>
+
+
+        <div class="links">
+
+            <p><a href="../login/login.html"> Já possui cadastro? </a></p>
+
+        </div>
+    </div>
+    </body>
+</html>
