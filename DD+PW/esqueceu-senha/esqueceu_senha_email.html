@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="esqueceu_senha_email.css">
-    <script src="" defer></script>
+    <script src="../esqueceu-senha/esqueceu_senha_email.js" defer></script>
     <title>Esqueceu senha</title>
 </head>  
     <body>
@@ -32,9 +32,11 @@
         <h3> EMAIL DE VERIFIÇÃO </h3>
 
         <label class="input-email"> E-mail: </label>
-        <p><input id="nv-senha" type="email" placeholder="seuemail@exemplo.com.br" required></p>
+        <p><input id="email" type="email" placeholder="seuemail@exemplo.com.br" required></p>
 
-        <button onclick=""> <a class="btn-esqueceu-senha" href="../esqueceu-senha/esqueceu_senha_codigo.html"> Código </a></button>
+        <button class="btn-esqueceu-senha" onclick="enviarCodigo()">Enviar código</button>
+
+
 
 
         <div class="links">
